@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="45,20,0,0" Text="Meta Description Scraper" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="75,53,0,0" Text="Powered by HtmlAgilityPack" TextWrapping="Wrap" VerticalAlignment="Top" FontStyle="Italic"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="45,81,0,0" Text="Enter URLs separated by a newline" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="45,106,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="625" Height="122" ToolTip="" AcceptsReturn="True"/>
+        <Button x:Name="button" Content="Get Descriptions" HorizontalAlignment="Left" Margin="45,239,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="45,273,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="625" Height="122" VerticalScrollBarVisibility="Auto" AcceptsReturn="True"/>
+    </Grid>
+</Window>
